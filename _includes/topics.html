@@ -1,0 +1,119 @@
+<!-- Topics Section -->
+    <section id="topics">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Topics</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center" id="wigglewrapper"><!--Start Wrapper -->
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/art.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Art</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/theatre.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Theatre</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/management.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Management</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/psychology.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">People / Psychology</h5>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/engineering.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Engineering</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/3d-printing.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">3D Printing</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/production.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Production</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/finance.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Finance</h5>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/accounting.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Accounting</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/travel.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Travel</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <div class="thumbnail">
+                        <img class="img-responsive" src="img/topics/internet.png" alt="Art"/>
+                        <div class="caption">
+                        <h5 class="text-muted">Internet of Things</h5>
+                        </div>
+                    </div>
+                </div>
+
+
+                <script>
+                    $(document).ready(function() {
+                        var interval = null;
+                            $('button#buttonStart').ready(function() {
+                                $('div#wigglewrapper img').ClassyWiggle('start');
+                                });
+                                $('button#buttonRandom').click(function() {
+                                    var matchedElementSize = $('div#wigglewrapper img').size();
+                                    interval = setInterval(function() {
+                                $($('div#wigglewrapper img').get(Math.floor(Math.random() * matchedElementSize))).ClassyWiggle('start', {limit: 5});
+                            }, 1000);
+                        });
+                    });
+                </script>
+
+
+            </div><!-- End Wrapper -->
+        </div>
+    </section>

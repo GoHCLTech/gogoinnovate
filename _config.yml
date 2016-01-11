@@ -1,0 +1,27 @@
+url: https://gogoinnovations.com
+baseurl: /gogoinnovations/
+
+# Site settings
+title: gogoInnovations.com
+email: gary@gogoinnovations.com
+description: "Gary is a passionate advocate for teaching innovation processes to young people and as well as to the business community and he is one of the biggest supporters of and advocates for the Xavier University Center for Innovation and the School of Arts and Innovation."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: ff7900
+  secondary: ff7d19  
+  success: 00CC52
+  secondary-dark: 333
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com
+  - title: facebook
+    url:  http://facebook.com
+  - title: linkedin
+    url: http://linkedin.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty

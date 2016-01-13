@@ -3,10 +3,10 @@
   <channel>
     <title>gogoInnovations.com</title>
     <description>Gary is a passionate advocate for teaching innovation processes to young people and as well as to the business community and he is one of the biggest supporters of and advocates for the Xavier University Center for Innovation and the School of Arts and Innovation.</description>
-    <link>https://gogoinnovations.com/</link>
-    <atom:link href="https://gogoinnovations.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Jan 2016 09:48:11 -0500</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2016 09:48:11 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 13 Jan 2016 11:07:33 -0500</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 11:07:33 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Sun, 03 Jan 2016 00:00:00 -0500</pubDate>
-        <link>https://gogoinnovations.com/web%20development/2016/01/03/project-1/</link>
-        <guid isPermaLink="true">https://gogoinnovations.com/web%20development/2016/01/03/project-1/</guid>
+        <link>/web%20development/2016/01/03/project-1/</link>
+        <guid isPermaLink="true">/web%20development/2016/01/03/project-1/</guid>
         
         
         <category>Web Development</category>
@@ -27,8 +27,8 @@
         <description>
 </description>
         <pubDate>Thu, 17 Jul 2014 00:00:00 -0400</pubDate>
-        <link>https://gogoinnovations.com/web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">https://gogoinnovations.com/web%20development/2014/07/17/project-2/</guid>
+        <link>/web%20development/2014/07/17/project-2/</link>
+        <guid isPermaLink="true">/web%20development/2014/07/17/project-2/</guid>
         
         
         <category>Web Development</category>

@@ -1,27 +1,51 @@
-# url: https://gogoinnovations.com
-# baseurl: /gogoinnovations/
-
 # Site settings
-title: gogoInnovations.com
-email: gary@gogoinnovations.com
-description: "Gary is a passionate advocate for teaching innovation processes to young people and as well as to the business community and he is one of the biggest supporters of and advocates for the Xavier University Center for Innovation and the School of Arts and Innovation."
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: ff7900
-  secondary: ff7d19
-  success: 00CC52
-  secondary-dark: 333
+title:                  GoGoInnovate.com
+email:                  gary@gogoinnovate.com
+description:            "Gary is a passionate advocate for teaching innovation processes to young people and as well as to the business community and he is one of the biggest supporters of and advocates for the Xavier University Center for Innovation and the School of Arts and Innovation."
+url:                    http://gogoinnovate.com
+domain:                 gogoinnovation.com
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com
-  - title: facebook
-    url:  http://facebook.com
-  - title: linkedin
-    url: http://linkedin.com
+  - title:              twitter
+    url:                http://twitter.com
+  - title:              facebook
+    url:                http://facebook.com
+  - title:              linkedin
+    url:                http://linkedin.com
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+source:                 ./
+destination:            ./_site
+layouts_dir:            ./_layouts
+plugins_dir:            ./_plugins
+
+include:                [".htaccess"]
+exclude:                [
+                            "bower_components",
+                            "node_modules",
+                            "bower.json",
+                            "Gemfile",
+                            "Gemfile.lock",
+                            "gulpfile.js",
+                            "README.md",
+                            "package.json"
+                        ]
+
+# Filtering Content
+show_drafts:            null
+limit_posts:            0
+future:                 true
+unpublished:            false
+
+# Plugins
+whitelist:              []
+gems:                   []
+
+markdown:               kramdown
+permalink:              pretty
+pageinate_path:         /page:num
+paginate:               10
+
+kramdown:
+  input:                GFM
+  syntax_highlighter:   rouge

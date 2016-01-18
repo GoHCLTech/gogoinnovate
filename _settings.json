@@ -1,0 +1,107 @@
+{
+
+    "production": false,
+
+    "paths": {
+
+        "tasks": "./_gulp-tasks",
+
+        "src": {
+
+            "fonts": [
+                "./_assets/fonts/**.*",
+                "./bower_components/bootstrap-sass/assets/fonts/bootstrap/**.*",
+                "./bower_components/font-awesome/fonts/**.*",
+                "./bower_components/cbp-animated-header-fork/fonts/*/**.*"
+            ],
+
+            "jekyll": [
+                "./*.html",
+                "./*.md",
+                "./_data/*",
+                "./_includes/**/*.html",
+                "./_includes/**/*.md",
+                "./_layouts/**/*.html",
+                "./_layouts/**/*.md",
+                "./_plugins/*",
+                "./_posts/**/*.html",
+                "./_posts/**/*.md"
+            ],
+
+            "js": "./_assets/js",
+            "js_include": [
+                "./bower_components/jquery/dist/jquery.js",
+                "./bower_components/bootstrap-sass/assets/javascripts/bootstrap.js",
+                "./bower_components/jquery.easing/js/jquery.easing.js",
+                "./bower_components/classie/classie.js",
+                "./bower_components/cbp-animated-header-fork/js/cbpAnimatedHeader.js",
+                "./_assets/js/*/**.*",
+                "./_assets/js/**.*"
+            ],
+
+            "img": "./_assets/img",
+
+            "sass": "./_assets/sass",
+            "sass_include": [
+                "./_assets/sass",
+                "./bower_components/bootstrap-sass/assets/stylesheets",
+                "./bower_components/font-awesome/scss",
+                "./bower_components/cbp-animated-header-fork/css"
+            ]
+
+        },
+
+        "dest": {
+            "css": "./assets/css",
+            "fonts": "./assets/fonts",
+            "jekyll": "./_site",
+            "js": "./assets/js",
+            "img": "./assets/img"
+        }
+
+    },
+
+    "plugins": {
+
+        "autoprefixer": true,
+        "sourcemaps": true,
+
+        "options": {
+
+            "autoprefixer": {
+                "browsers": ["last 2 versions"],
+                "cascade": false
+            },
+
+            "imagemin": {
+                "progressive": true,
+                "svgoPlugins": [{
+                    "removeViewBox": true
+                }]
+            },
+
+            "imgresponsive": {
+                "maxWidth": 2048,
+                "progressive": false,
+                "quality": 80,
+                "compressionLeven": 6,
+                "withMetadata": false,
+                "withoutEnlargement": true,
+                "errorOnEnlargement": false,
+                "strictMatchImages": false,
+                "strictMatchConfig": false
+            },
+
+            "minifier": {
+                "processImports": false
+            },
+
+            "uglify": {
+                "compress": {
+                    "drop_console": true
+                }
+            }
+
+        }
+    }
+}

@@ -4204,7 +4204,7 @@ section h3.section-subheading { margin-bottom: 75px; text-transform: none; font-
 
 aside.clients img { margin: 50px auto; }
 
-section#contact { background-color: #222; background-image: url(img/map-image.png); background-position: center; background-repeat: no-repeat; }
+section#contact { background-color: #222; background-image: url(../img/map-image.png); background-position: center; background-repeat: no-repeat; }
 
 section#contact .section-heading { color: #ff7900; }
 

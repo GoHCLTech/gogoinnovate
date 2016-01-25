@@ -1,15 +1,18 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Imagination is More Important than Knowledge
+speaker: Gary Sharpe
+subtitle: 
 layout: default
-modal-id: 1
+lecture-id: 1
 date: 2016-01-03
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+img: about-gary.jpg
+thumbnail: 1.jpg
+alt: Imagination
+lecture-date: FEBRUARY 3, 2016
+description: I'll be giving a brief presentation in which I’ll share my thoughts regarding innovation, imagination, and what it takes to build and create two successful multi-million dollar companies.
+register-link: https://www.eventbrite.com/e/spark-speaker-series-featuring-gary-sharpe-tickets-20630298779
+page-link:
+content:
 
 ---
+

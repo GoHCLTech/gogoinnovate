@@ -49,3 +49,6 @@ paginate:               10
 kramdown:
   input:                GFM
   syntax_highlighter:   rouge
+
+# Gems
+gems:                   [jekyll-paginate]

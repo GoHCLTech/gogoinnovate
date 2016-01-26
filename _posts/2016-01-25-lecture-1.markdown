@@ -1,6 +1,7 @@
 ---
 title: Imagination is More Important than Knowledge
 speaker: Gary Sharpe
+category: lectures
 subtitle: 
 layout: default
 lecture-id: 1
@@ -13,6 +14,7 @@ description: I'll be giving a brief presentation in which I’ll share my though
 register-link: https://www.eventbrite.com/e/spark-speaker-series-featuring-gary-sharpe-tickets-20630298779
 page-link:
 content:
+comments: true
 
 ---
 

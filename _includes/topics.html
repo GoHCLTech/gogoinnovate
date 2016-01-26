@@ -8,14 +8,18 @@
                 </div>
             </div>
             <div class="row text-center" id="wigglewrapper"><!--Start Wrapper -->
+                {% for post in site.posts %}
+                        {% if post.category contains 'topics' %}
                 <div class="col-xs-6 col-sm-4 col-md-3">
-                    <div class="thumbnail">
-                        <img class="img-responsive" src="/assets/img/topics/art.png" alt="Art"/>
+                    <div class="thumbnail"><a href="#portfolioModal{{ post.lectures-id }}" class="portfolio-link" data-toggle="modal">
+                        <img src="/assets/img/topics/{{ post.thumbnail }}" class="img-responsive" alt="{{ post.alt }}"></a>
                         <div class="caption">
-                        <h5 class="text-muted">Art</h5>
+                        <h5 class="text-muted">{{ post.title }}</h5>
                         </div>
                     </div>
                 </div>
+                                        {% endif %}
+                        {% endfor %}
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <div class="thumbnail">
                         <img class="img-responsive" src="/assets/img/topics/theatre.png" alt="Art"/>
@@ -96,7 +100,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <script>
                     $(document).ready(function() {

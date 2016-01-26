@@ -1,0 +1,20 @@
+---
+title: Theatre
+speaker: Gary Sharpe
+categories: topics
+subtitle: 
+layout: default
+lecture-id: 3
+date: 2016-01-02
+img: theatre.png
+thumbnail: theatre.png
+alt: theatre
+lecture-date:
+description: 
+register-link:
+page-link:
+content: Theater combines real people artfully presenting dialog. This combined with creative stage settings are powerful. You can learn to make better product presentations and pitches for funding of projects. I have learned that combining the theatrical arts with retail you can create trade show booths that are unique and make you more noticeable and memorable to customers. Add music and you ad even more power to you presentation or commercial.  Remember, you idea, product, selling proposition has to be repeated three times to get into the minds you want to get into.
+comments: true
+
+---
+

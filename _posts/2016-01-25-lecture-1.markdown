@@ -1,7 +1,7 @@
 ---
 title: Imagination is More Important than Knowledge
 speaker: Gary Sharpe
-category: lectures
+categories: lectures
 subtitle: 
 layout: default
 lecture-id: 1

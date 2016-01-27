@@ -8,17 +8,15 @@
                 </div>
             </div>
             <div class="row text-center" id="wigglewrapper"><!--Start Wrapper -->
-                {% for post in site.posts %}
-                    {% if post.categories contains 'topics' %}
+                {% for topics in site.categories.topics %}
                 <div class="col-xs-6 col-sm-4 col-md-3">
-                    <div class="thumbnail"><a href="#portfolioModal{{ post.lecture-id }}" class="portfolio-link" data-toggle="modal">
-                        <img src="/assets/img/topics/{{ post.thumbnail }}" class="img-responsive" alt="{{ post.alt }}"></a>
+                    <div class="thumbnail"><a href="{{ site.baseurl }}{{ topics.url }}">
+                        <img src="/assets/img/topics/{{ topics.thumbnail }}" class="img-responsive" alt="{{ topics.alt }}"></a>
                         <div class="caption">
-                        <h5 class="text-muted">{{ post.title }}</h5>
+                        <h5 class="text-muted">{{ topics.title }}</h5>
                         </div>
                     </div>
                 </div>
-                    {% endif %}
                 {% endfor %}
                 <div class="col-xs-6 col-sm-4 col-md-3">
                     <div class="thumbnail">

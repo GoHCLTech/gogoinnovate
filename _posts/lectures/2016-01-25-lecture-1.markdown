@@ -12,7 +12,7 @@ alt: Imagination
 lecture-date: FEBRUARY 3, 2016
 description: I'll be giving a brief presentation in which I’ll share my thoughts regarding innovation, imagination, and what it takes to build and create two successful multi-million dollar companies.
 register-link: https://www.eventbrite.com/e/spark-speaker-series-featuring-gary-sharpe-tickets-20630298779
-page-link:
+lecture-pdf: /resources/imagination-presentation.pdf
 comments: true
 
 ---

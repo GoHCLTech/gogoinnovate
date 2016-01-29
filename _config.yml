@@ -5,15 +5,6 @@ description:            "Gary is a passionate advocate for teaching innovation p
 url:                    http://gogoinnovate.com
 domain:                 gogoinnovation.com
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title:              twitter
-    url:                http://twitter.com
-  - title:              facebook
-    url:                http://facebook.com
-  - title:              linkedin
-    url:                http://linkedin.com
-
 source:                 ./
 destination:            ./_site
 layouts_dir:            ./_layouts

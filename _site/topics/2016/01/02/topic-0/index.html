@@ -222,9 +222,10 @@ s.setAttribute('data-timestamp', +new Date());
                     <h3 class="section-subheading text-muted">I'd love to hear from you!</h3>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-lg-12">
-                    <form action="//formspree.io/joemagnum1@hotmail.com" method="post">
+                    <form id="contactform" action="//formspree.io/jlangley@gohcl.com" method="post">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -246,6 +247,8 @@ s.setAttribute('data-timestamp', +new Date());
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">Send Me a Message</button>
+                                <input type="text" name="_gotcha" style="display:none" />
+                                <input type="hidden" name="_subject" value="gogoinnovate Contact" />
                             </div>
                         </div>
                     </form>
@@ -253,20 +256,6 @@ s.setAttribute('data-timestamp', +new Date());
             </div>
         </div>
     </section>
-
-<form id="contactform" method="POST">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <input type="hidden" name="_subject" value="Website contact" />
-    <textarea name="message" placeholder="Your message"></textarea>
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="submit" value="Send">
-</form>
-<script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'joemagnum1' + '@' + 'hotmail' + '.' + 'com');
-</script>
-
       <footer>
         <div class="container">
             <div class="row">

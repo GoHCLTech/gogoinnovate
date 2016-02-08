@@ -5,9 +5,9 @@ categories: topics
 subtitle: 
 layout: topic
 lecture-id: 2
-date: 2016-02-05
+date: 2016-01-01
 img: topics/cool-stuff.png
-thumbnail: topics/cool-stuff.png
+thumbnail: cool-stuff.png
 alt: cool stuff
 lecture-date:
 description: 

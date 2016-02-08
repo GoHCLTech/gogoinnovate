@@ -5,7 +5,7 @@ categories: topics
 subtitle: 
 layout: topic
 lecture-id: 3
-date: 2016-01-02
+date: 2016-01-12
 img: topics/theatre.png
 thumbnail: theatre.png
 alt: theatre

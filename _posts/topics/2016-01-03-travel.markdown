@@ -1,0 +1,20 @@
+---
+title: Travel
+speaker: Gary Sharpe
+categories: topics
+subtitle: 
+layout: topic
+lecture-id: 
+date: 2016-01-03
+img: topics/travel.png
+thumbnail: travel.png
+alt: Travel
+lecture-date:
+description: 
+register-link:
+page-link:
+comments: true
+
+---
+
+Still being innovated!

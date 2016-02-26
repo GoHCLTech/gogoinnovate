@@ -1,8 +1,9 @@
 ---
-title: Buy A Lottery Ticket
+title: Hershey seeks cool way to ship chocolate
 layout: default
 modal-id: 1
-img: lucky/lottery.jpg
+img: 
 alt: Buy A Lottery Ticket!
-
+info: Candy company offers $25,000 prize for innovative container design…The contest winner will receive $25,000 in development funds and the opportunity to collaborate with Hershey to further develop proposed solutions
+link: http://www.dcvelocity.com/articles/20160202-hershey-seeks-cool-way-to-ship-chocolate/
 ---

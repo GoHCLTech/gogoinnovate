@@ -33,7 +33,7 @@ return [
     'migrate'      => 'Artisan',
 
     // Which strategy to use to install your application's dependencies
-    'dependencies' => 'Hcl\NoDependancyStrategy',
+    'dependencies' => 'Hcl\NoDependencyStrategy',
 
     // Execution hooks
     //////////////////////////////////////////////////////////////////////

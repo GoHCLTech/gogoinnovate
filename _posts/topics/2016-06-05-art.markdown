@@ -5,7 +5,7 @@ categories: topics
 subtitle: 
 layout: topic
 lecture-id: 2
-date: 2016-01-11
+date: 2016-06-05
 img: topics/art.png
 thumbnail: art.png
 alt: art

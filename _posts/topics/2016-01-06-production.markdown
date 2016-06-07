@@ -16,5 +16,10 @@ page-link:
 comments: true
 
 ---
+<hr>
 
-Still being innovated!
+<h4>Production Innovation</h4>
+Production innovation starts day one with your facility lay-out for production and material flow, then continues to safety improvements needed to insure a quality product. Advancements in equipment and software open the doors for creative ideas and improvement in current and future products.
+
+Developing employees with talent and ability to innovate will increase productivity in the work force. This can be obtained through communication, counselling and training. Encourage ideas from employees, customers and business partners and always strive for continual improvements.  Following these steps eliminates unnecessary processes that raise manufacturing costs. 
+Moving toward innovation leads to meeting delivery dates with quality products, and satisfied customers.

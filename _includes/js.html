@@ -16,3 +16,12 @@
 
 <!-- Icon Wiggle jQuery -->
 <script src="/assets/myJS/jquery.classywiggle.min.js"></script>
+
+<!-- Animate jQuery -->
+<script>
+$('.portfolio-link').addClass('animated hinge').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',
+	function() {
+		$(this).removeClass('animated hinge');
+		$(this).addClass('animated fadeInUp');
+	});
+</script>

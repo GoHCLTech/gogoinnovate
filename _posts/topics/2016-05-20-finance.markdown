@@ -5,7 +5,7 @@ categories: topics
 subtitle: 
 layout: topic
 lecture-id: 
-date: 2016-01-05
+date: 2016-05-20
 img: topics/finance.png
 thumbnail: finance.png
 alt: Travel

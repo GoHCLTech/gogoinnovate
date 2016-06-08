@@ -1,16 +1,16 @@
 ---
-title: Production
+title: Production Innovation
 speaker: Gary Sharpe
-categories: topics
+categories: blogs
 subtitle: 
 layout: topic
 lecture-id: 
-date: 2016-01-06
+date: 2016-06-06
 img: topics/production.png
 thumbnail: production.png
 alt: Travel
 lecture-date:
-description: 
+description: Production innovation starts day one with your facility lay-out for production and material flow, then continues to safety improvements needed to insure a quality product...
 register-link:
 page-link:
 comments: true

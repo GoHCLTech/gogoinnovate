@@ -4049,6 +4049,8 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; font-family: Montserrat,"Hel
 
 .bg-light-gray { background-color: #f7f7f7; }
 
+.bg-blog { background-image: url(../img/blog-background.jpg); }
+
 .bg-darkest-gray { background-color: #222; }
 
 .btn-primary { border-color: #ff7900; text-transform: uppercase; font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: 700; color: #fff; background-color: #ff7900; }

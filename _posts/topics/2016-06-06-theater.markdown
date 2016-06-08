@@ -10,7 +10,7 @@ img: topics/theatre.png
 thumbnail: theatre.png
 alt: theatre
 lecture-date:
-description: 
+description: Theater combines real people artfully presenting dialog. This combined with creative stage settings are powerful...
 register-link:
 page-link:
 comments: true

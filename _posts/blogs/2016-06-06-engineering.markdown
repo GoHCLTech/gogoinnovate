@@ -1,16 +1,16 @@
 ---
-title: Engineering
+title: Engineering Innovation
 speaker: Gary Sharpe
-categories: topics
+categories: blogs
 subtitle: 
 layout: topic
 lecture-id: 
-date: 2016-01-08
+date: 2016-06-06
 img: topics/engineering.png
 thumbnail: engineering.png
 alt: Travel
 lecture-date:
-description: 
+description: Engineering innovation starts with the relentless pursuit of a solution to a specific problem without personal bias and full creative freedom...
 register-link:
 page-link:
 comments: true

@@ -4,7 +4,7 @@ speaker: Gary Sharpe
 categories: blogs
 topic: 3D Printing
 subtitle: 
-layout: topic
+layout: blog
 lecture-id: 
 date: 2016-06-03
 img: topics/3d-printing.png

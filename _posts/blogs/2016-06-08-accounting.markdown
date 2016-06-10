@@ -4,7 +4,7 @@ speaker: Gary Sharpe
 categories: blogs
 topic: Accounting
 subtitle: 
-layout: topic
+layout: blog
 lecture-id: 
 date: 2016-06-08
 img: topics/accounting.png

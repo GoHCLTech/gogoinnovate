@@ -4,7 +4,7 @@ speaker: Gary Sharpe
 categories: blogs
 topic: Engineering
 subtitle: 
-layout: topic
+layout: blog
 lecture-id: 
 date: 2016-06-06
 img: topics/engineering.png

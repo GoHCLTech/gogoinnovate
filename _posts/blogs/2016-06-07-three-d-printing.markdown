@@ -2,6 +2,7 @@
 title: 3D Printing Innovation
 speaker: Gary Sharpe
 categories: blogs
+topic: 3D Printing
 subtitle: 
 layout: topic
 lecture-id: 

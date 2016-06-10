@@ -6,11 +6,20 @@
                     <h2 class="section-heading">Blog Posts</h2>
                 </div>
             </div>
-{% for blogs in site.categories.blogs %}    
-    <h3><a href="{{ blogs.url }}">{{ blogs.title }}</a></h3>
+            <hr>
+{% for blogs in site.categories.blogs %} 
+<div class="row">
+<div class="col-sm-4">
+<img src="/assets/img/topics/{{ blogs.thumbnail }}" class="img-responsive" alt="{{ topics.alt }}"> 
+</div>
+
+<div class="col-sm-8">  
+    <h3><a href="{{ blogs.url }}">{{ blogs.title }}</a> <span class="label label-default">{{ blogs.date | date: "%B %e, %Y" }}</span><br><small>{{ blogs.topic }}</small></h3>
     <p>{{ blogs.description }}</p>
-    <p><small><strong>{{ blogs.date | date: "%B %e, %Y" }}</strong></small></p>  
-    <a href="{{ blogs.url }}">Read More</a>
+    <a href="{{ blogs.url }}"><button type="button" class="btn btn-success"><i class="fa fa-link" aria-hidden="true"></i>
+ Read More</button></a>
+</div>
+</div>
 <hr>
 {% endfor %}    
         </div>

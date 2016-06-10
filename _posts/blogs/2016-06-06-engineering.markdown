@@ -2,6 +2,7 @@
 title: Engineering Innovation
 speaker: Gary Sharpe
 categories: blogs
+topic: Engineering
 subtitle: 
 layout: topic
 lecture-id: 

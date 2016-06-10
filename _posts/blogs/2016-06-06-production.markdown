@@ -2,6 +2,7 @@
 title: Production Innovation
 speaker: Gary Sharpe
 categories: blogs
+topic: Production
 subtitle: 
 layout: topic
 lecture-id: 

@@ -1,7 +1,8 @@
 ---
-title: Accounting
+title: Accounting Innovation
 speaker: Gary Sharpe
 categories: blogs
+topic: Accounting
 subtitle: 
 layout: topic
 lecture-id: 

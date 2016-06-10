@@ -23,8 +23,8 @@
 
 {% for blogs in site.categories.blogs limit:1 %}
 <div class="item active">   
-<div class="col-md-2"><img alt="" src="/assets/img/topics/{{ blogs.thumbnail }}" class="img-circle img-responsive"/></div>
-<div class="testimonials col-md-10">
+<div class="col-md-2 col-sm-2 col-xs-2"><img alt="" src="/assets/img/topics/{{ blogs.thumbnail }}" class="img-circle img-responsive"/></div>
+<div class="testimonials col-md-10 col-sm-10 col-xs-10">
 
 <h3>
 {{ blogs.title }}
@@ -41,8 +41,8 @@
 
 {% for blogs in site.categories.blogs offset:1 limit:2 %}
 <div class="item">   
-<div class="col-md-2"><img alt="" src="/assets/img/topics/{{ blogs.thumbnail }}" class="img-circle img-responsive"/></div>
-<div class="testimonials col-md-10">
+<div class="col-md-2 col-sm-2 col-xs-2"><img alt="" src="/assets/img/topics/{{ blogs.thumbnail }}" class="img-circle img-responsive"/></div>
+<div class="testimonials col-md-10 col-sm-10 col-xs-10">
 
 <h3>
 {{ blogs.title }}

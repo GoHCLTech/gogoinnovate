@@ -11,7 +11,7 @@ img: topics/engineering.png
 thumbnail: engineering.png
 alt: Travel
 lecture-date:
-description: Engineering innovation starts with the relentless pursuit of a solution to a specific problem without personal bias and full creative freedom...
+description: Engineering innovation starts with the relentless pursuit of a solution...
 register-link:
 page-link:
 comments: true

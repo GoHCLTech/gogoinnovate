@@ -11,7 +11,7 @@ img: topics/production.png
 thumbnail: production.png
 alt: Travel
 lecture-date:
-description: Production innovation starts day one with your facility lay-out for production and material flow, then continues to safety improvements needed to insure a quality product...
+description: Production innovation starts day one with your facility...
 register-link:
 page-link:
 comments: true
